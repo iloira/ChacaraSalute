@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Chácara Salute</title>
+</head>
+<body> 
+  <header>
+    <nav>
+      <a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+      <ul class="nav-list">
+        <a href="#home"><li>Home</li></a> 
+        <a href="#photos"><li>Fotos</li></a>  
+        <a href="#contact"><li>Contato</li></a> 
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!--BANNER-->
+    <div class="carousel" id="home">
+      <div class="slide active">
+        <img src="img/image.jpg" alt="Imagem 1">
+      </div>
+      <div class="slide">
+        <img src="img/image2.jpg" alt="Imagem 2">
+      </div>
+      <div class="slide">
+        <img src="img/imagem3.jpg" alt="Imagem 3">
+      </div>
+    </div>  
+  </main>
+
+  <!--ABOUT-->
+  <div class="sobre" id="about">
+    <div class="titulo">
+      <p>SOBRE</p>  
+    </div>
+    <div class="texto">
+      <p>Descubra o local perfeito para celebrar aniversários, confraternizações, churrascos com a família e amigos, ou até mesmo aproveitar um dia de lazer completo! Localizada a apenas 50 minutos de São Paulo, em Santa Isabel, nossa chácara é o destino ideal para momentos inesquecíveis.
+        <br>Com WI-FI disponível, você poderá desfrutar do ambiente e ainda se manter conectado. Nossa estrutura conta com 4 quartos, incluindo uma suíte, 3 banheiros, sala de estar com TV, churrasqueira, mesa de ping-pong e uma refrescante piscina. Além disso, a cozinha totalmente equipada, com forno e fogão à lenha, proporciona uma experiência completa para preparar deliciosas refeições.
+        <br> Acomodamos confortavelmente até 15 pessoas, mas estamos abertos a negociações caso você precise de uma capacidade maior. 
+        <br> <strong>Vale ressaltar que em nossa chácara não há sinal de telefone das operadoras.</strong>
+      </p>
+    </div>  
+  </div>
+
+ <!--PHOTOS-->
+  <div class="fotos" id="photos">
+    <div class="titulo">
+      <p>FOTOS</p>  
+    </div>
+    <div class="gallery-container">
+      <div class="gallery-item">
+        <img src="img/img1.jpeg" alt="Image 1" title="piscina">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img2.jpeg" alt="Image 2" title="">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img3.jpeg" alt="Image 3" title="ping-pong">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img4.jpg" alt="Image 4" title="piscina">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img5.jpeg" alt="Image 5" title="parquinho">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img7.jpeg" alt="Image 7" title="gangorra">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img8.jpeg" alt="Image 8" title="balanço">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img9.jpeg" alt="Image 9" title="escorregador">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img10.jpeg" alt="Image 10" title="área parquinho">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img11.jpeg" alt="Image 11" title="quarto 1">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img12.jpeg" alt="Image 12" title="quarto 2">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img13.jpeg" alt="Image 13" title="quarto 3">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img15.jpeg" alt="Image 15" title="quarto 5">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img14.jpeg" alt="Image 14" title="suíte">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img16.jpeg" alt="Image 16" title="banheiro 1">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img17.jpeg" alt="Image 17" title="banheiro 2">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img18.jpeg" alt="Image 18" title="cozinha">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img20.jpeg" alt="Image 18" title="cozinha">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img21.jpeg" alt="Image 18" title="sala 1">
+      </div>
+      <div class="gallery-item">
+        <img src="img/img23.jpeg" alt="Image 18" title="sala 2">
+      </div>
+    </div>
+    <div id="modal" class="modal">
+      <span class="close-btn">&times;</span>
+      <div class="modal-content">
+        <img id="modal-image" src="" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="contato" id="contact">
+    <div class="titulo">
+      <p>CONTATO</p>
+    </div>
+    <form class="formulario">
+          
+      <div class="metade left">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-mail">
+        <input type="text" placeholder="Assunto">
+      </div>
+      <div class="metade right">
+        <textarea name="mensagem" type="text" placeholder="Mesagem"></textarea>
+      </div>  
+      <input type="submit" value="Enviar Dados" class="btn-submit">
+    </form>
+  </div>
+
+  <hr>
+
+  <footer>
+    <a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+    
+    <ul class="redes">
+      <a href="https://api.whatsapp.com/message/ECBHRJCBGZVRC1?autoload=1&app_absent=0" target="_blank"><img src="img/wpp.png" title="whatsapp"></a>      
+      <a href="https://www.instagram.com/chacarasalute/" target="_blank"><img src="img/insta.png" title="instagram"></a>
+    </ul>
+  </footer>
+
+  <script src="./js/script.js"> </script>
+</body>
+</html>
